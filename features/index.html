@@ -1,0 +1,144 @@
+<!-- This website created with a theme called NEW-ITY.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><!--This title is coming from assets/js/customize.js--></title>
+    <!-- Styles + Bootstrap + Locomotive + Feather + Clay.CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/claymorphism-css/dist/clay.css" />
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body data-scroll-container>
+    <a href="https://github.com/themecreator/newity-jeykll" class="fork-me clay"><i data-feather="download-cloud"></i> DOWNLOAD</a>
+    <nav class="navbar clay navbar-expand-lg navbar-dark" style="padding-bottom:50px;z-index:999;">
+        <div class="container-fluid">
+          <a class="navbar-brand title clay" style="--clay-border-radius:20px;padding:10px;" href="/"></a>
+          <button class="navbar-toggler clay" style="position: absolute;left:50%;transform: translateX(-50%);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="/about/" class="nav-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/features/">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/posts/">Posts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="wave-area">
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="transparent" />
+            </g>
+            </svg>
+        </div>
+    </nav>
+    <div data-scroll-section>
+        <div class="container" style="height:100vh;margin-top:50px;">
+            <h1 class="display-3">Features</h1>
+            This is the features page of me! And don't forget <code>.navbar</code>, <code>.fork-me</code> (in this website i am using as download button) and <code>footer</code>.
+            <br><br>
+            Texts:
+            <h1 class="display-1"><code>.display-1</code></h1>
+            <h1 class="display-2"><code>.display-2</code></h1>
+            <h1 class="display-3"><code>.display-3</code></h1>
+            <h1 class="display-4"><code>.display-4</code></h1>
+            <h1 class="display-5"><code>.display-5</code></h1>
+            <h1 class="display-6"><code>.display-6</code></h1>
+            <h1><code>h1</code></h1>
+            <h2><code>h2</code></h2>
+            <h3><code>h3</code></h3>
+            <h4><code>h4</code></h4>
+            <h5><code>h5</code></h5>
+            <h6><code>h6</code></h6>
+            <blockquote class="clay">
+                <b><code>b</code>old</b> <i><code>i</code>talic</i> <u><code>u</code>nderline</u> This is the <code>blockquote</code>.
+            </blockquote>
+            <a href="#" class="link">This is <code>a.link</code></a><br>
+            Cards: (with 4 colums)
+            <div class="row row-cols-4 g-2">
+              <div class="col">
+                  <div class="card clay" style="width: 130px;">
+                      <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" class="card-img-top" alt="Bootstrap logo">
+                      <div class="card-body">
+                          <p class="card-text">Bootstrap</p>
+                        </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card clay" style="width: 130px;">
+                      <img src="https://locomotivemtl.github.io/locomotive-scroll/dist/images/favicons/favicon-32x32.png" class="card-img-top" alt="Locomotive Scroll logo">
+                      <div class="card-body">
+                          <p class="card-text">Locomotive</p>
+                        </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card clay" style="width: 130px;">
+                      <img src="https://feathericons.com/favicon-32x32.png" class="card-img-top" alt="Feather logo">
+                      <div class="card-body">
+                          <p class="card-text">Feather</p>
+                        </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card clay" style="width: 130px;">
+                      <img src="https://codeadrian.github.io/clay.css/apple-touch-icon.png" class="card-img-top" alt="Clay.CSS logo">
+                      <div class="card-body">
+                          <p class="card-text">Clay.CSS</p>
+                        </div>
+                  </div>
+              </div>
+          </div>
+            <br><br>
+            <div>This is a normal <code>div</code></div>
+            <div class="clay">This is a <code>div</code> with the <code>.clay</code> class</div>
+            <div class="primary">This is a <code>div</code> witg the <code>.primary</code> class</div>
+            <div class="secondary">This is a <code>div</code> with the <code>.secondary</code> class</div>
+            <blockquote>The <button class="btn primary clay">.primary.clay</button> and <button class="btn secondary clay">.secondary.clay</button> classes are working on buttons too!</blockquote>
+            <div class="secondary" style="width:100%;height:100vh;font-size:128px">Landing</div>
+            <pre><code><div>let's rock'n'roll!</div></code></pre>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="/about/" class="nav-link px-2 text-muted">About Me</a></li>
+                <li class="nav-item"><a href="/features/" class="nav-link px-2 text-muted">Features</a></li>
+                <li class="nav-item"><a href="/posts/" class="nav-link px-2 text-muted">Posts</a></li>
+                <li class="nav-item"><a href="https://github.com/themecreator/newity-jeykll" class="nav-link px-2 btn secondary clay">Download</a></li>
+              </ul>
+              <p class="text-center text-muted">Designed by <a class="link" href="https://github.com/themecreator">themeCreator</a> © 2022</p>
+            </footer>
+        </div>
+    </div> 
+    
+    <!-- Scripts + Bootstrap + Locomotive -->
+    <script src="../assets/js/customize.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
